@@ -1,9 +1,9 @@
 {
   "name": "cloudphoneclient",
   "version": "1.0.0",
-  "main": "rollup.config.js",
+  "main": "dist/cloud-phone-client.js",
   "scripts": {
-    "dev": "rollup -c --waitch rollup.config.js"
+    "dev": "rollup -c --watch"
   },
   "repository": {
     "type": "git",
