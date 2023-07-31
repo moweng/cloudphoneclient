@@ -1,0 +1,19 @@
+{
+  "name": "cloudphoneclient",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moweng/cloudphoneclient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.26.3",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "typescript": "^5.1.6"
+  }
+}
