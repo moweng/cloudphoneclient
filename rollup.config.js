@@ -7,7 +7,7 @@ module.exports = defineConfig({
     output: [
       {
         file: './dist/cloud-phone-client.js',
-        format: 'amd', // 通过amd格式输出
+        format: 'umd', // 通过amd格式输出
         name: 'CloudPhoneClient'
       }
     ],
