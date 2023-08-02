@@ -1,2 +1,2 @@
 import CloudPhonePlayer from './cloud-phone-player';
-export default CloudPhonePlayer;
+export default CloudPhonePlayer
