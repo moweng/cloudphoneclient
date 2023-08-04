@@ -18,10 +18,11 @@ module.exports = defineConfig({
       }
     ],
     plugins: [
-      nodeResolve(
-        {browser: true}
-      ),
+      nodeResolve({
+        browser: true
+      }),
       commonjs(),
+      
       typescript({
         sourceMap: true
       })
